@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI PDF Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI PDF Generator</h1>
+    <textarea id="inputText" placeholder="أدخل النص هنا"></textarea>
+    <button id="generatePdfBtn">إنشاء PDF</button>
+    <div id="downloadLinkContainer" style="display: none;">
+      <p>تم إنشاء ملف PDF. يمكنك تحميله من خلال الرابط التالي:</p>
+      <a id="downloadLink" href="#" download>تحميل PDF</a>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+  </html>
